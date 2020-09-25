@@ -1,9 +1,9 @@
 .high {
-    background: dimgray;
+    background: #4a4a4a;
 }
 
 .medium {
-    background: gray;
+    background: #8c8c8c;
 }
 
 .low {
@@ -137,4 +137,71 @@ header div {
     height: 80%;
     width:80%;
     margin: 10% auto;
+}
+
+/* style news container */
+.news-container {
+    background: indianred;
+}
+
+.news {
+    display: flex;
+}
+
+.news .card {
+    margin: 20px;
+    height: 400px;
+    flex: 1;
+}
+
+.news .card * {
+    margin: 20px 0;
+    padding: 20px;
+}
+.news .heading {
+    height: 70px;
+}
+
+.news .credits {
+    height: 20px;
+}
+
+/* style sponsors */
+.sponsors {
+    display: flex;
+}
+
+.sponsors * {
+    margin: 20px;
+}
+
+.small {
+    height: 200px;
+    flex: 1;
+    background: pink;
+}
+
+.small .button {
+    width: 125px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.long {
+    height: 750px;
+    flex: 2;
+    background: hotpink;
+}
+
+.long .cat {
+    width: 250px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.long .button {
+    width: 200px;
+    height: 50px;
+    margin: auto;
 }
