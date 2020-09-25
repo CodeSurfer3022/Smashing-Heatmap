@@ -205,3 +205,41 @@ header div {
     height: 50px;
     margin: auto;
 }
+
+
+/* style people container */
+.people-container {
+    background: deeppink;
+}
+
+.person-main {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 300px;
+}
+
+.person-main .line {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20%;
+}
+.main-person {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.people-container .people .card {
+    width: 500px;
+    height: 400px;
+    padding: 0;
+}
+
+.people-container .people {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more {
+    height: 150px;
+}
