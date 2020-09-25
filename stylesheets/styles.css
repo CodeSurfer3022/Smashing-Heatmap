@@ -12,7 +12,7 @@
 
 /* style header */
 header {
-    background: lightblue;
+    /*background: lightblue;*/
     height: 90px;
     display: flex;
     align-items: center;
@@ -28,12 +28,12 @@ header div {
 
 /* style featured people */
 .people {
-    background: darkcyan;
+    /*background: darkcyan;*/
     position: relative;
 }
 
 .people h3 {
-    background: yellow;
+    /*background: yellow;*/
     display: inline-block;
     position: absolute;
     left: 50%;
@@ -63,13 +63,13 @@ header div {
 }
 
 .featured {
-    background: lightcyan;
+    /*background: lightcyan;*/
     display: flex;
     flex-wrap: wrap;
 }
 
 .people .card {
-    background: blue;
+    /*background: blue;*/
     padding-top: 20%;
     height: 700px;
     margin: 20px;
@@ -109,7 +109,7 @@ header div {
 
 /* style memberhsip popup */
 .membership {
-    background: dodgerblue;
+    /*background: dodgerblue;*/
     height: 400px;
     margin: 0;
 }
@@ -141,7 +141,7 @@ header div {
 
 /* style news container */
 .news-container {
-    background: indianred;
+    /*background: indianred;*/
 }
 
 .news {
@@ -178,7 +178,7 @@ header div {
 .small {
     height: 200px;
     flex: 1;
-    background: pink;
+    /*background: pink;*/
 }
 
 .small .button {
@@ -190,7 +190,7 @@ header div {
 .long {
     height: 750px;
     flex: 2;
-    background: hotpink;
+    /*background: hotpink;*/
 }
 
 .long .cat {
@@ -209,7 +209,7 @@ header div {
 
 /* style people container */
 .people-container {
-    background: deeppink;
+    /*background: deeppink;*/
 }
 
 .person-main {
@@ -255,7 +255,7 @@ header div {
 /* style featured book */
 .books {
     height: 400px;
-    background: lightcyan;
+    /*background: lightcyan;*/
     display: flex;
 }
 
@@ -281,7 +281,7 @@ header div {
 }
 /* style articles */
 .articles {
-    background: dodgerblue;
+    /*background: dodgerblue;*/
     display: flex;
     flex-wrap: wrap;
 }
