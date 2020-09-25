@@ -25,6 +25,8 @@ header div {
 }
 
 /* style main content */
+
+/* style featured people */
 .people {
     background: darkcyan;
     position: relative;
@@ -66,7 +68,7 @@ header div {
     flex-wrap: wrap;
 }
 
-.card {
+.people .card {
     background: blue;
     padding-top: 20%;
     height: 700px;
@@ -103,4 +105,36 @@ header div {
 .line {
     margin: 30px 0;
     height: 30px;
+}
+
+/* style memberhsip popup */
+.membership {
+    background: dodgerblue;
+    height: 400px;
+    margin: 0;
+}
+.membership > div {
+    height: 100%;
+    display: inline-block;
+}
+
+.membership .details {
+    width: 70%;
+}
+
+.subscribe {
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.membership .logo {
+    width: 30%;
+    float: right;
+}
+
+.cat {
+    height: 80%;
+    width:80%;
+    margin: 10% auto;
 }
