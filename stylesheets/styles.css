@@ -242,4 +242,59 @@ header div {
 
 .more {
     height: 150px;
+    text-align: center;
+}
+
+.more span {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+}
+
+/* style featured book */
+.books {
+    height: 400px;
+    background: lightcyan;
+    display: flex;
+}
+
+.content {
+    flex: 3;
+    height: 400px;
+}
+
+.content .button {
+    width: 350px;
+    height: 60px;
+    margin: auto;
+}
+
+.side {
+    flex: 1;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.book {
+    height: 80%;
+}
+/* style articles */
+.articles {
+    background: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles * {
+    flex: 50%;
+    padding: 20px;
+}
+
+.articles .small {
+    height: 500px;
+}
+
+.articles .cat {
+    height: 250px;
 }
